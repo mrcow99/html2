@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Admission Form</title>
+        <style>
+            label{
+                padding:10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <form action="image.html" method="post">  
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name" required><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname"><br>
+
+                <label for="xname">Permanent Address</label>
+                <input type="text" id="xname" name="xname"><br>
+                        
+                    <label for="wname">Temporary Address</label>
+                    <input type="text" id="wname" name="wname"><br>
+                            
+                        <label for="qname">Contact</label>
+                        <input type="number" id="qname" name="qname"><br>
+        
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder=".@gmail.com" required><br>     
+            
+                                <label for="date">DOB</label>
+                                <input type="datetime-local" id="date" name="date"><br>
+
+                                    <label for="gender">Gender</label>
+                                    <!-- <input type="text" id="gender" name="gender" hidden><br> -->
+                                   <select>
+                                    <option value="gender" selected>Others</option>
+                                    <option value="gender">Male</option>
+                                    <option value="gender">Female</option>
+                                   </select> <br>
+                                   
+                                        <label for="gender">Gender</label>
+                                        <input type="radio" id="male" value="male" name="gender">
+                                        <label for="male">male</label>
+
+                                        <input type="radio" id="female" value="female" name="gender">
+                                        <label for="female">female</label>
+                                        
+                                        <input type="radio" id="other" value="other" name="gender">
+                                        <label for="other">other</label><br> 
+
+       
+                                        <label for="pname">Previous School</label>
+                                        <input type="text" id="pname" name="pname"><br>   
+
+                                            <label for="password">Password</label>
+                                            <input type="password" id="password" name="password"><br>
+
+                                            UPLOAD:
+                                            <input type="file"><br><br>
+                                                
+                                            FEEDBACK:
+                                            <textarea rows="20" cols="40"></textarea><br>
+
+                                            Movies:<br>
+                                            
+                                            <label for="movies">kgf</label>
+                                            <input type="checkbox" id="kgf" name="kgf" value="kgf"><br>
+
+                                            <label for="movies">Newton</label>
+                                            <input type="checkbox" id="Newton" name="Newton" value="Newton"><br>
+                                            
+                                            <label for="movies">Bahubali</label>
+                                            <input type="checkbox" id="Bahubali" name="Bahubali" value="Bahubali" checked>
+                                            <br>
+                                            
+                                            
+
+        
+                                    
+        <input type="Submit" value="CLICKK"/>
+        <input type="reset" value="CLEARR"/>
+        </form>
+
+    </body>
+</html>
